@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.light {
+    --main: 255, 255, 255;
+    --card: 226, 232, 240;
+    --card-body: 241, 245, 249;
+    --btn-primary: 139, 92, 246;
+    --content: 0, 0, 0;
+}
+
+.dark {
+    --main: 71, 85, 105;
+    --card: 15, 23, 42;
+    --card-body: 30, 41, 59;
+    --btn-primary: 153, 27, 27;
+    --content: 255, 255, 255;
+}
+
+.red {
+    --main: 185 28 28;
+    --card: 127 29 29;
+    --card-body: 220 38 38;
+    --btn-primary: 69 10 10;
+    --content: 254 202 202;
+}
